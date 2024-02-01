@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #bed1f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.heading{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: #0b0bf2;
+    text-align: center;
+}
+.container{
+    width: 65%;
+    height: 70vh;
+    background-color: #0b0bf2;
+    border-radius: 15px;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.winner{
+    display: none;
+    color: white;
+    text-align: center;
+}
+.winner span{
+    display: block;
+}
+.elias{
+    width: 32%;
+    height: 32%;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+}
+.elias:nth-child(even){
+    background-color: #69f691;
+}
+.restart{
+    padding: 8px 20px;
+    border: none;
+    background-color: #f04242;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
